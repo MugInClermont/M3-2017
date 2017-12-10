@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: coreserversvc
+  labels:
+    version: test
+spec:
+  selector:
+    app: coreserver
+  ports:
+  - port: 8080
+  type: LoadBalancer

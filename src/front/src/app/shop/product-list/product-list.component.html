@@ -1,0 +1,30 @@
+<header class="container-fluid">
+  <div class="row justify-content-center">
+    <img src="/assets/banner.png" />
+  </div>
+</header>
+
+<main class="container">
+  <div class="row">
+    <section class="col-md-12 three-col" role="main">
+      <h1>Christmas shop</h1>
+      <ul class="d-flex flex-wrap products">
+          <li *ngFor="let product of products" class="product-item col-md-4">
+            <div class="widget-box">
+              <div class="entry-thumb"> 
+                  <img [src]="product.image" class="attachment-full size-full wp-post-image lazy-loaded" 
+                      alt="Christmas Stocking Loading Animation" 
+                      data-lazy-type="image" scale="0" /> 
+              </div>
+              <div class="entry-meta">
+                <h2 class="entry-title">{{product.name}}</h2>
+                <div class="entry-content">
+                  {{product.description}}
+                </div>
+              </div>
+            </div>
+          </li>
+      </ul>
+    </section>
+  </div>
+</main>

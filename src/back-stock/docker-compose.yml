@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  back-mug-stock:
+    image: back-mug-stock
+    build:
+      context: .
+      dockerfile: Dockerfile
