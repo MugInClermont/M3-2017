@@ -17,4 +17,4 @@ Vous retrouverez dans ce repository l'ensemble des codes source que nous avons m
 
 # La vidéo
 
-A Venir, la vidéo de notre speak.
+[![Alt text for your video](https://img.youtube.com/vi/Z2ofML83qHM/0.jpg)](http://www.youtube.com/watch?v=Z2ofML83qHM)
