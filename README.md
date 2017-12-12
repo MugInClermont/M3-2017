@@ -17,4 +17,4 @@ Vous retrouverez dans ce repository l'ensemble des codes source que nous avons m
 
 # La vidéo
 
-[![Alt text for your video](https://img.youtube.com/vi/Z2ofML83qHM/0.jpg)](http://www.youtube.com/watch?v=Z2ofML83qHM)
+[![Alt text for your video](https://img.youtube.com/vi/jKu1YiZSi0A/0.jpg)](http://www.youtube.com/watch?v=jKu1YiZSi0A)
